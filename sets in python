@@ -1,0 +1,16 @@
+a  = {1,2,3,4,5,6}
+print(type(a))
+print(a)
+
+b = set()
+print(type(b))
+
+b.add(4)
+b.add(5)
+b.add((7,8,9))
+print(b)
+
+print(len(b))
+
+b.remove(5)
+print(b)
